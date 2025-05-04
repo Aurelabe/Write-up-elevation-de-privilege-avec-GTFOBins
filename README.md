@@ -49,6 +49,9 @@ Ces deux commandes ont été exécutées sans problème, confirmant que l’util
 Sorry, user testuser is not allowed to execute '/bin/bash' as root...
 ```
 
+![image](https://github.com/user-attachments/assets/c5717ac4-b135-42cf-a5f1-fef1e50b3cc2)
+
+
 Cette étape a permis de vérifier que les restrictions de privilèges étaient en place et fonctionnaient comme prévu.
 
 ---
@@ -66,6 +69,9 @@ L'étape suivante a consisté à exploiter les commandes autorisées par `sudo` 
 
   Une fois cette commande exécutée, un shell root a été obtenu. Cela a été confirmé en utilisant la commande `whoami`, qui a retourné `root`.
 
+  ![image](https://github.com/user-attachments/assets/5ff21e66-b9ae-4e2a-8b04-28ec5bc20b56)
+
+
 * **Option 2 : Exploitation avec `less`**
   La deuxième méthode d'exploitation a impliqué la commande `less`, un programme permettant de visualiser des fichiers. En utilisant la commande suivante pour ouvrir le fichier `/etc/passwd` en mode `less` :
 
@@ -74,3 +80,5 @@ L'étape suivante a consisté à exploiter les commandes autorisées par `sudo` 
   ```
 
   Une fois le fichier ouvert, la commande `!sh` a été entrée dans l'interface de `less`, ce qui a permis de lancer un shell root. Cette méthode a également conduit à l'obtention d'un shell avec des privilèges root.
+
+![image](https://github.com/user-attachments/assets/97a9297c-8a09-45cc-b1b7-532bfc13dc70)
