@@ -81,4 +81,4 @@ L'étape suivante a consisté à exploiter les commandes autorisées par `sudo` 
 
   Une fois le fichier ouvert, la commande `!sh` a été entrée dans l'interface de `less`, ce qui a permis de lancer un shell root. Cette méthode a également conduit à l'obtention d'un shell avec des privilèges root.
 
-![image](https://github.com/user-attachments/assets/97a9297c-8a09-45cc-b1b7-532bfc13dc70)
+  ![image](https://github.com/user-attachments/assets/97a9297c-8a09-45cc-b1b7-532bfc13dc70)
